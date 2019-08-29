@@ -1,15 +1,16 @@
-import { registerApplication, start } from 'single-spa'
+// import { registerApplication, start } from 'single-spa';
+import * as singleSpa from 'single-spa';
 
-registerApplication(
+singleSpa.registerApplication(
   'vue', 
   () => import('./src/vue/vue.app.js'),
   () => location.pathname === "/react" ? false : true
 );
 
-registerApplication(
+singleSpa.registerApplication(
   'react',
   () => import('./src/react/main.app.js'),
   () => location.pathname === "/vue"  ? false : true
 );
 
-start();
+singleSpa.start();
