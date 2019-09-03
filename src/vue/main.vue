@@ -1,4 +1,5 @@
 <template>
-      <li>Hello from Vue</li>
-
+  <div>
+    <h1>Hello from Vue</h1>
+  </div>
 </template>
