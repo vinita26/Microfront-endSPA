@@ -1,1 +1,1 @@
-web: node single-spa.config.js
+web: node server.js

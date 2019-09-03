@@ -1,4 +1,3 @@
-// import { registerApplication, start } from 'single-spa';
 import * as singleSpa from 'single-spa';
 
 singleSpa.registerApplication(
