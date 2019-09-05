@@ -24,6 +24,10 @@ const App = () => {
         <li style={liStyle}>Experience Nissan</li>
         <li style={liStyle}>Nissan Connect</li>
       </ul>
+      <div>
+        Just showing a header which has been built using React to show React app
+        integration in single-spa
+      </div>
     </div>
   );
 };
