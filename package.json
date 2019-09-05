@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "webpack-dev-server --open",
-    "start": "node server.js",
+    "start": "webpack-dev-server --open",
     "build": "webpack --config webpack.config.js -p"
   },
   "keywords": [],
@@ -15,6 +14,7 @@
     "express": "^4.17.1",
     "net": "^1.0.2",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
     "serve-static": "^1.14.1",
     "single-spa": "^4.3.7",
